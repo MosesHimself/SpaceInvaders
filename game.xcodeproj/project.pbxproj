@@ -21,7 +21,6 @@
 		0939C7EA1D7DF5CD001F36E4 /* shot_1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0939C7E11D7DF45F001F36E4 /* shot_1.png */; };
 		0939C7EB1D7DF5CD001F36E4 /* shot_2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0939C7E21D7DF45F001F36E4 /* shot_2.png */; };
 		0939C7EC1D7DF5CD001F36E4 /* shot_3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0939C7E31D7DF45F001F36E4 /* shot_3.png */; };
-		0968DAB41E9FFD0E006E40A3 /* VCR.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0968DAB31E9FFCCA006E40A3 /* VCR.ttf */; };
 		09DA1EDF1D91CEAA00DFC765 /* scoreboard.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 095DDD1D1D91A96000C85ED8 /* scoreboard.txt */; };
 		09E8ECCA1D5443DF000BCB6E /* pause.c in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECC81D5443DF000BCB6E /* pause.c */; };
 		09E8ECCD1D5443FE000BCB6E /* intro.c in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECCB1D5443FE000BCB6E /* intro.c */; };
@@ -54,7 +53,6 @@
 			dstPath = .;
 			dstSubfolderSpec = 6;
 			files = (
-				0968DAB41E9FFD0E006E40A3 /* VCR.ttf in CopyFiles */,
 				09DA1EDF1D91CEAA00DFC765 /* scoreboard.txt in CopyFiles */,
 				0939C7E71D7DF5CD001F36E4 /* shot2_1.png in CopyFiles */,
 				0939C7E81D7DF5CD001F36E4 /* shot2_2.png in CopyFiles */,
@@ -99,7 +97,6 @@
 		0939C7E51D7DF46B001F36E4 /* shot2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shot2_2.png; path = "New Piskel 2/shot2_2.png"; sourceTree = "<group>"; };
 		0939C7E61D7DF46B001F36E4 /* shot2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shot2_3.png; path = "New Piskel 2/shot2_3.png"; sourceTree = "<group>"; };
 		095DDD1D1D91A96000C85ED8 /* scoreboard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scoreboard.txt; sourceTree = "<group>"; };
-		0968DAB31E9FFCCA006E40A3 /* VCR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR.ttf; path = ../../../../Desktop/VCR.ttf; sourceTree = "<group>"; };
 		09E8ECC81D5443DF000BCB6E /* pause.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pause.c; sourceTree = "<group>"; };
 		09E8ECCB1D5443FE000BCB6E /* intro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = intro.c; sourceTree = "<group>"; };
 		09E8ECCE1D544420000BCB6E /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
@@ -161,7 +158,6 @@
 				09EE85801D67937F00BFC78C /* Lightman Pixel.ttf */,
 				09EE85741D678E7500BFC78C /* pocketball3dital.ttf */,
 				092D9B561D6ED0DF00FE6001 /* NEON____.TTF */,
-				0968DAB31E9FFCCA006E40A3 /* VCR.ttf */,
 				092D9B581D6F543100FE6001 /* astronaut.regular.ttf */,
 				092D9B5A1D6F54B300FE6001 /* astronaut.ii.ttf */,
 				09EE85751D678E7500BFC78C /* pocketballcond.ttf */,
@@ -255,7 +251,7 @@
 		270D950D17F8B3D700F64319 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Mike Farrell";
 			};
 			buildConfigurationList = 270D951017F8B3D700F64319 /* Build configuration list for PBXProject "game" */;
@@ -304,19 +300,30 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -342,19 +349,30 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

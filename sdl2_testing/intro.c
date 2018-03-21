@@ -57,7 +57,7 @@ void introLoad(Game *game)  {
     
     sprintf(game->intro->start, "[ENTER] to START");
     sprintf(game->intro->quit, "[ESCAPE] to QUIT");
-    sprintf(game->intro->title, "{ASS INVADERS}");
+    sprintf(game->intro->title, "{CAELESTIS}");
     sprintf(game->intro->credit, "Version 2.1");
     sprintf(game->intro->load, "Loading");
     

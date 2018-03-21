@@ -111,7 +111,7 @@ int recieveInput(Game *game)  {
     //More jumping
     const Uint8 *state = SDL_GetKeyboardState(NULL);
     
-    int i = 0, j = 0, k = 0;
+    int i = 0, j = 0;
     
    
     

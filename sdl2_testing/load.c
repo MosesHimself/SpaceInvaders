@@ -17,7 +17,7 @@ void load(Game *game)  {
     game->screen->width = 1400;
     
     //Create an application window with the following settings:
-    game->window = SDL_CreateWindow("GANG GANG GANG GANG",              // window title
+    game->window = SDL_CreateWindow("Arse Invaders",              // window title
                                     SDL_WINDOWPOS_UNDEFINED,            // initial x position
                                     SDL_WINDOWPOS_UNDEFINED,            // initial y position
                                     game->screen->width,                // width, in pixels
